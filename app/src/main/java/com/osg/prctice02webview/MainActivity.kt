@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         webSettings.setSupportZoom(true)
         webSettings.layoutAlgorithm = WebSettings.LayoutAlgorithm.TEXT_AUTOSIZING
 
-        webView.loadUrl("https://www.naver.com")
+        webView.loadUrl("http://kamniang.dothome.co.kr/WebTeamProject/index.html")
 
 
         FirebaseMessaging.getInstance().token.addOnCompleteListener(OnCompleteListener { task ->
